@@ -1,12 +1,16 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 30px; 
+  // align_items: center; 
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+    display: flex;
+    gap: 15px;
 }
 
 .left-nav {
@@ -18,7 +22,10 @@
   }
 
   span {
-    
+    font-weight: bold;
+    color: #333; 
+    font-style:  nyt-franklin;
+    font-size: 13px;
   }
 }
 
