@@ -18,6 +18,16 @@
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	display: flex;
+	width: 100px
+}
+
+.doingit{
+	display: flex;
+	gap: 10px
+
+}
+
+
 	
 	
 
@@ -29,16 +39,16 @@
 		color: $dark-gray;
 	}
 
-	> ul {
-		display: flex;
-		> li:first-of-type {
-			font-weight: bold;
-		}
+	// > ul {
+	// 	display: flex;
+	// 	> li:first-of-type {
+	// 		font-weight: bold;
+	// 	}
 
 	
 
-	}
-}
+	
+
 
 .logo {
 	max-width: 400px;
