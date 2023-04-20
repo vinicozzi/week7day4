@@ -18,18 +18,19 @@
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	display: flex;
-	width: 100px
+	width: 100px;
 }
 
-.doingit{
+.language-nav:hover { 
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.language-nav > ul  {
 	display: flex;
-	gap: 10px
-
+	gap: 10px; 
+	text-decoration: none;
 }
-
-
-	
-	
 
 	a {
 		margin: 0 5px;
@@ -65,8 +66,14 @@
 
 	li {
 		margin-left: 10px;
-		
 	}
+
+	li.hover {
+
+		text-decoration: underline;
+	}
+
+
 
 	button {
 		background: none;
@@ -77,7 +84,7 @@
 	}
 
 	button:hover {
-		background-color: $lightest-gray;
+		background-color: $lightest-gray;	
 	}
 
 	a,
