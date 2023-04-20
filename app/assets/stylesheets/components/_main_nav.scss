@@ -25,18 +25,21 @@
     font-weight: bold;
     color: #333; 
     font-style:  nyt-franklin;
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
 .right-nav  {
   > ul {
-    > li {
+    > li { 
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       
     }
 
     > li:last-of-type {
-      
+      font-size: 20px;
     }
   }
   
@@ -49,5 +52,6 @@
 .right-nav > ul > li:last-of-type:hover {
   
 }
+
 
     

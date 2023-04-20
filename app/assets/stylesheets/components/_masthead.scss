@@ -17,6 +17,9 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	display: flex;
+	
+	
 
 	a {
 		margin: 0 5px;
@@ -26,8 +29,14 @@
 		color: $dark-gray;
 	}
 
-	ul {
+	> ul {
 		display: flex;
+		> li:first-of-type {
+			font-weight: bold;
+		}
+
+	
+
 	}
 }
 
@@ -36,16 +45,17 @@
 	margin-top: 10px;
 }
 
-.masthead-links {
+.masthead-links ul {
 	display: flex;
 	font-family: $sans-serif;
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	align-items: center;
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+		
 	}
 
 	button {
